@@ -20,20 +20,20 @@
 #
 
 # default settings (these are overridden by uno.cfg)
-set UnoAds		1
+set UnoAds		0
 set UnoDebug 		0
 set UnoChan 		"#uno"
 set UnoRobot 		$botnick
 set UnoPointsName 	"Points"
 set UnoStopAfter 	3
-set UnoJoinAnyTime	0
+set UnoJoinAnyTime	1
 set UnoUseDCC		0
-set UnoBonus		1000
+set UnoBonus		700
 set UnoWildDrawTwos	0
-set UnoWDFAnyTime	0
+set UnoWDFAnyTime	1
 set UnoMaxNickLen	9
 set UnoMaxPlayers	10
-set UnoOpFlags		"o|o"
+set UnoOpFlags		"-"
 set UnoNTC		"NOTICE"
 set UnoCFGFile		"scripts/uno.cfg"
 set UnoScoreFile 	"UnoScores"
@@ -41,9 +41,9 @@ set UnoVersion 		"0.98.9"
 
 # command binds
 bind pub - !uno UnoInit
-bind pub "o|o" !stop UnoStop
-bind pub "o|o" !pause UnoPause
-bind pub "o|o" !join UnoJoinBotPlayer
+bind pub - !stop UnoStop
+bind pub - !pause UnoPause
+bind pub - !join UnoJoinBotPlayer
 bind pub - !remove UnoRemove
 bind pub - !unocmds UnoCmds
 bind pub - !unowon UnoWon
