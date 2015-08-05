@@ -1610,7 +1610,7 @@ proc uno_autoskipreset {nick} {
 proc UnoCmds {nick uhost hand chan txt} {
  global UnoLogo
  if {![uno_ischan $chan]} {return}
- unogntc $nick "$UnoLogo Commands: !uno !stop !remove \[nick\] !unowon \[nick\] !unocmds"
+ unogntc $nick "$UnoLogo Commands: !uno !stop !remove \[nick\] !unowon \[nick\] !unocmds !pause !join (joins the bot to the game)"
  unogntc $nick "$UnoLogo Stats: !unotop10 \[games\|wins\|21\] !unotop3last !unostats !unorecords"
  unogntc $nick "$UnoLogo Card Commands: jo=join pl=play dr=draw pa=pass co=color"
  unogntc $nick "$UnoLogo Chan Commands: ca=cards cd=card tu=turn od=order ct=count st=stats ti=time"
