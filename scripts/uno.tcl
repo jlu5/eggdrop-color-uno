@@ -42,6 +42,7 @@ set UnoVersion 		"0.98.9"
 # command binds
 bind pub - !uno UnoInit
 bind pub - !stop UnoStop
+bind pub - !unostop UnoStop
 bind pub - !pause UnoPause
 bind pub - !join UnoJoinBotPlayer
 bind pub - !remove UnoRemove
