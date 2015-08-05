@@ -1,0 +1,29 @@
+Marky's Color Uno 0.98
+Copyright (C) 2004-2008 Mark A. Day (techwhiz@embarqmail.com)
+
+Uno(tm) is Copyright (C) 2001 Mattel, Inc.
+
+INSTALLATION
+
+Move the uno.tcl script and the configuration file uno.cfg to your eggdrop
+scripts directory and add a line to the end of your bot's config file:
+
+source scripts/uno.tcl
+
+You will want to edit uno.cfg to suit your liking. Be sure to at least set the
+channel in which Uno will play. Note that the channel name is case sensitive and
+should be defined as the channel appears in your bot's conf or chan file. The other
+configuration items should be self-explanatory. Scores reset monthly at midnight local
+time on the first day of each month, and a copy of the previous month's scores is saved.
+
+Rehash your bot and type !uno to start the game. To get a listing of the
+available commands, type !unocmds in the configured uno channel.
+
+AVAILABILITY
+
+This script is currently only available on http://www.egghelp.org/tcl.htm
+
+Send mail if you like the script, find bugs, etc.  Ciao and have fun :)
+
+Marky
+

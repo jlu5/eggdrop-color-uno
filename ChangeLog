@@ -1,0 +1,115 @@
+2011-04-13 Marky
+ add ability to allow wdf to be played at any time
+ keep scores in main bot directory by default
+
+2008-07-05 Marky
+ fix bug with bot player and wdf cards
+ rework card play routine 
+ rename internal procs
+ 
+2007-12-02 Marky
+ turn off dcc card output by default
+ player can draw a card unless wdf is held
+ wdf cant be played if player has playable card color
+
+2007-11-04 Marky
+ improve no draw while card in-hand routine
+
+2007-11-02 Marky
+ no drawing of cards while player has a playable card
+
+2007-08-16 Marky
+ ability to disable joining after game has started
+ bug in remove and autoskip routine that corrupted discard pile
+ players skipped twice are removed from game
+
+2007-06-10 Marky
+ play shortcuts
+ bonus for fast, high score, etc
+ 
+2006-04-17 Marky
+ rework bot player 
+
+2005-08-05 Marky
+ missing call to showcards in wdf
+ add row bonus
+
+2005-07-15 Marky
+ bot will show cards in dcc chat if established
+ robot player cannot win fast game record
+ track blackjack bonuses for month
+
+2005-06-15 Marky
+ improve robot player's strategy
+
+2005-05-19 Marky
+ removed wild draw four call to showcards for player that drew
+ rework deck re-shuffler which was corrupting deck list
+ wins by default cannot set records
+
+2005-05-19 Marky
+ rework showcards routine
+
+2005-05-15 Marky
+ bot pick-a-color was using next players hand
+ 500 point bonus for ending with a score of 21 
+
+2005-04-19 Marky
+ discard pile was off by one
+ WILD were not added to discard pile
+ rework random seed
+ add channel check to unowon routine
+
+2005-04-12 Marky
+ fix for special characters in nicknames
+
+2005-01-01 Marky
+ more playcard routine fixups
+
+2004-10-09 Marky
+ add record cards played
+ rewrite playcard routine
+
+2004-10-02 Marky
+ remove nick was case sensitive
+ ability to turn off wild draw two cards
+
+2004-09-29 Marky
+ add high score and all time records
+
+2004-06-16 Marky
+ make most binds active only during play.
+ add ability for ops to remove another player (!unoremove [nick])
+
+2004-06-05 Marky
+ remove timerexists dependency on alltools.tcl
+ change strlen to [string length $var]
+
+2004-06-03 Marky
+ fix typo in remove routine
+ add settable bonus for fastest game
+ speed optimizations
+
+2004-06-03 Marky
+ change how add draw to hand works, so as to show the draw before a win
+ redo checks for win, has uno, and drawing a card to be faster
+
+2004-06-02 Marky
+ uncomment start/stop binds
+ add fastest game procedure
+ game running time was incorrect
+ player idle time display was useless
+
+2004-06-01 Marky
+ fix nick color in hasuno procedure
+ regsubs were a waste for procs that had no args, removed
+
+2004-06-01 Marky
+ nick colouring routine mods
+ add regsub for public triggers
+ fix typo in UnoShowCards routine
+
+2004-05-31 Marky
+ uncomment month score reset routine
+ set debug level 0
+

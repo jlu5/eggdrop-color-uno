@@ -1,0 +1,51 @@
+Marky's Color Uno
+Copyright (C) 2004-2008 Mark A. Day (techwhiz@embarqmail.com)
+
+Uno(tm) is Copyright (C) 2001 Mattel, Inc.
+
+This is a simple uno game that I wrote for eggdrop-1.6. It plays much
+like other uno bots, responds much faster, makes use of color, has play
+shortcuts, and the robot player wins games ;-)
+
+Bot commands:
+
+ !unocmds 	command list
+ !remove [nick] remove [nick] (or yourself) from the current game
+ !unowon [nick] show score for [nick]
+ !unotop10 	top10 scores
+ !unotop10 21	top10 blackjack winners
+ !unotop3last   last month's Top3
+ !unofast 	monthly fastest game record
+ !unohigh 	monthly high score record
+ !unostats	this months records
+ !unorecords 	all-time records
+ !uno 		start an uno game
+ !stop 		stop uno
+
+ Removing someone other than oneself is limited to channel ops.
+
+Commands during play:
+
+ jo	join an uno game
+ od	show current playing order
+ ti	show current game running time
+ ca	re-display and sort cards in hand 
+ pl	play a card
+ cd	show current top card
+ tu   	show whose turn it is
+ dr	draw a card
+ co	change color
+ pa 	pass to next player
+ ct  	show how many cards each player has left
+ st	card stats
+
+Examples of card play:
+
+  to play a blue 4 card: pl b4
+  to play a red skip card: pl rs
+  to play a yellow draw two card: pl yd
+  to play a wild draw four card: pl wd
+
+Enjoy,
+Marky
+
