@@ -1,6 +1,7 @@
 #
-# Marky's Color Uno v0.98
+# Marky's Color Uno v0.98.9+overdrive1
 # Copyright (C) 2004-2011 Mark A. Day (techwhiz@embarqmail.com)
+# Copyright (C) 2015 James Lu (glolol@overdrive.pw)
 #
 # Uno(tm) is Copyright (C) 2001 Mattel, Inc.
 #
@@ -37,7 +38,7 @@ set UnoOpFlags		"-"
 set UnoNTC		"NOTICE"
 set UnoCFGFile		"scripts/uno.cfg"
 set UnoScoreFile 	"UnoScores"
-set UnoVersion 		"0.98.9"
+set UnoVersion 		"0.98.9+overdrive1"
 
 # command binds
 bind pub - !uno UnoInit
